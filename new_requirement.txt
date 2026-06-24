@@ -1,0 +1,25 @@
+# Web Framework & ASGI Server
+fastapi
+uvicorn
+
+# Environment & Config
+python-dotenv
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Validation & Security
+pydantic
+email-validator
+passlib[bcrypt]
+bcrypt
+
+# External requests
+requests
+aiohttp
+
+# Data Processing & ML
+pandas
+numpy
+scikit-learn==1.3.2

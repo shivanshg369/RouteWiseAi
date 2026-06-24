@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.env
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data and assets not needed in container or already present in DB
+# (Unless the app reads these JSON files on runtime? 
+# The main.py does not seem to read JSON files natively, but for safety we might keep them if needed.
+# We will just ignore virtual environment and git)

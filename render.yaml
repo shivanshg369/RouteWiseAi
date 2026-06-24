@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: routewise-ai
+    env: docker
+    plan: free
+    region: ohio # You can change this to singapore or frankfurt depending on your location
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: TOMTOM_API_KEY
+        sync: false
+      - key: OWM_API_KEY
+        sync: false
+      - key: PORT
+        value: 8000
